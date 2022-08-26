@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Img from "../components/Img";
+const pathName = Astro.url.pathname;
+---
+
+<Layout title="404 - page not found">
+  {console.log(Astro)}
+  <!-- Logo -->
+  <Img src='/images/darksouslwp.jpg' alt='Site logo'/>
+  <h1>404: Not Found</h1>
+  <h2>Path: {pathName} could not be found</h2>
+</Layout>

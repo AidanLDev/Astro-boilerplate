@@ -1,5 +1,5 @@
 {
-  "name": "@example/basics",
+  "name": "boilerplate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,15 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "astro": "^1.0.9",
+    "@astrojs/react": "latest",
+    "@astrojs/sitemap": "latest",
+    "astro": "latest",
     "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.5.3"
+    "prettier-plugin-astro": "^0.5.3",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.17"
   }
 }
